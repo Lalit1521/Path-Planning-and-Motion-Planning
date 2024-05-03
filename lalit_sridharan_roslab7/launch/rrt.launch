@@ -1,0 +1,8 @@
+<launch>
+
+    <rosparam command="load" file="$(find lalit_sridharan_roslab7)/config/config.yaml" />
+    
+
+    <node pkg="lalit_sridharan_roslab7" name="rrt" type="rrt" output="screen" />
+
+</launch>

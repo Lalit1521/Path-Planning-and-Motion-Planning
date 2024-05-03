@@ -1,0 +1,49 @@
+# Topics that RRT listens to
+pose_topic: "gt_pose"
+scan_topic: "scan"
+
+# Topics that RRT publishes to
+drive_topic: "nav"
+
+# Path for CSV file
+CSV_path: "/root/Lalit_Sridharan_ws/src/lalit_sridharan_roslab6/logs/waypoint.csv"
+
+#######
+# Parameters for RRT
+#######
+
+# Max Iterations of RRT before giving up
+max_rrt_iters: 2000
+
+# Max Value for steer between two nodes
+max_expansion_distance: 0.5 # in meters
+
+# Dicretization along edge joining two nodes in RRT
+collision_checking_points: 10
+
+# RRT Local Planner Goal Tolerance
+goal_tolerance: 0.1 # in meters
+
+# Lookahead Distance for tracking reference of local planner (RRT)
+lookahead_distance: 1.0 # in meters
+
+# Lookahead Distance for tracking reference of local planner (RRT)
+local_lookahead_distance: 0.5 # in meters
+
+# Near search radius for a node in the RRT* tree
+search_radius: 0.5
+
+# Enable RRT*
+enable_rrtstar: true
+
+# Obstacle Inflation
+inflation_radius: 5
+
+#######
+# Parameters for Car
+#######
+
+# Speed Variations
+high_speed: 1.5
+moderate_speed: 1.5
+low_speed: 0.5

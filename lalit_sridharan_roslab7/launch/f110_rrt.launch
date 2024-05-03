@@ -1,0 +1,8 @@
+<launch>
+
+    <rosparam command="load" file="$(find lalit_sridharan_roslab7)/config/config.yaml" />
+    <env name="ROSCONSOLE_CONFIG_FILE" value="$(find lalit_sridharan_roslab7)/config/rosconsole_config.conf"/>
+
+    <node pkg="lalit_sridharan_roslab7" name="rrt_node" type="rrt_node" output="screen" />
+
+</launch>
