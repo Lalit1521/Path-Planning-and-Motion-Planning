@@ -1,0 +1,7 @@
+<launch>
+ 
+  <node pkg="lalit_sridharan_roslab6" type="pure_pursuit" name="pure_pursuit_node" output="screen"/>
+
+  <param name="/f1tenth/waypoint_file" type="str" value="$(find lalit_sridharan_roslab6)/logs/data_points.csv" />
+  <!--<node pkg="lalit_sridharan_roslab6" type="visualize_waypoint.py" name="visualize_waypoint_node" output="screen" />-->
+</launch>
