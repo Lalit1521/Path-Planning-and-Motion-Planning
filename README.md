@@ -2,6 +2,8 @@
 roslab 5 is localization with scan-matching(PL-ICP)
 
 
+Check this video link for scan-matching
+
 https://youtu.be/F692ePWp844
 
 
