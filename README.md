@@ -1,4 +1,10 @@
 # Path-Planning-and-Motion-Planning
+roslab 5 is localization with scan-matching(PL-ICP)
+
+
+https://youtu.be/F692ePWp844
+
+
 roslab7 is RRT star path planning
 
 RRT* as local planner in action
