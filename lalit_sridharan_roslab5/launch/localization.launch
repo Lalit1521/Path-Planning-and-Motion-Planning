@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="lalit_sridharan_roslab5" type="student_scan_matcher" name="student_scan_matcher" output="screen"/>
+    <rosparam command="load" file="$(find lalit_sridharan_roslab6)/config/pure_pursuit.yaml" />
+    
+
+    <node pkg="lalit_sridharan_roslab6" name="pursuit" type="pursuit" output="screen" />
+  <!--<node pkg="lalit_sridharan_roslab6" type="visualize_waypoint.py" name="visualize_waypoint_node" output="screen" />-->
+</launch>
